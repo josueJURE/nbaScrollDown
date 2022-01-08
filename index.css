@@ -1,4 +1,16 @@
 img {
-  width: 50%;
-  height: 50%;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+
+}
+
+.picture {
+  border: 2px solid red;
+
+}
+
+.container {
+  display: flex;
+  gap: 10px;
 }
