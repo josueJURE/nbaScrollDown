@@ -1,16 +1,35 @@
+h1 {
+  text-align: center;
+}
+
 img {
-  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
   height: 500px;
+  width: 500px;
   object-fit: cover;
+}
+
+ul {
+  list-style-type: none;
+  border-left: solid black 2px;
+  display: none;
 
 }
+
 
 .picture {
   border: 2px solid red;
-
+  display: flex;
+  flex-direction: row;
+  border-radius: 10px;
 }
 
+
+
+
 .container {
+  margin-top: 30px;
   display: flex;
   gap: 10px;
 }

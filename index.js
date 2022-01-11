@@ -1,8 +1,9 @@
 let imgs = document.querySelectorAll("img");
-console.log(imgs)
+let pictures = document.querySelectorAll(".picture");
+console.log(pictures)
 
-for(var i = 0; i < imgs.length; i++) {
-  imgs[i].addEventListener("click", function() {
-    console.log('it works')
+for(var i = 0; i < pictures.length; i++) {
+  pictures[i].addEventListener("click", function() {
+    this.lastElementChild.style.display = "inline";
   })
 }
