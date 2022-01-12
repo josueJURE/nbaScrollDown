@@ -4,7 +4,8 @@ console.log(pictures)
 
 for(var i = 0; i < pictures.length; i++) {
   pictures[i].addEventListener("mouseover", function() {
-    this.lastElementChild.style.display = "inline";
+    this.lastElementChild.style.transform = "translateX(30%)";
+    this.lastElementChild.style.opacity = 1;
   })
 }
 
