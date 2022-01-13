@@ -7,7 +7,7 @@ for(var i = 0; i < pictures.length; i++) {
     this.lastElementChild.style.transform = "translateX(0%)";
     this.lastElementChild.style.opacity = 1;
     this.lastElementChild.style.transition = "all 4s"
-    this.lastElementChild.style.transition.timing.function = "ease-in-out";
+    // this.lastElementChild.style.transition.timing.function = "ease-in-out";
   })
 }
 

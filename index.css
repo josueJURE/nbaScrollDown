@@ -1,5 +1,23 @@
-h1 {
+.pageTitle {
+  animation: dropsdown 2s forwards;
+  border: solid black 2px;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
+  transform: translateY(-200%);
+  width: 50%;
+}
+
+@keyframes dropsdown {
+
+  0% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+
 }
 
 img {
@@ -21,7 +39,7 @@ ul {
   height: 100%;
   line-height: 1.6;
   list-style-type: none;
-  margin-top: 0%;
+  margin-top: 20%;
   overflow: hidden;
   text-align: center;
   border-left: solid black 2px;
