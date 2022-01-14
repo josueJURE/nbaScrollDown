@@ -7,7 +7,6 @@
   align-content: center;
   text-align: center; /*center both vertically and horizontally*/
   padding: 10px 0; /*center both vertically and horizontally*/
-  justify-content: center;
   left: 50%;
   transform: translateX(-50%);
   width: 600px;
@@ -42,13 +41,15 @@ ul {
   border-radius: 10px;
   flex: 50%;
   height: 100%;
+  width: 100%;
   line-height: 1.6;
   list-style-type: none;
-  margin-top: 20%;
+  margin-top: 0;
   overflow: hidden;
   text-align: center;
   border-left: solid black 2px;
   opacity: 0;
+  transform: translateY(20%);
   transform: translateX(100%);
 }
 
@@ -59,11 +60,16 @@ ul {
   border-radius: 10px;
 }
 
-
-
-
 .container {
   margin-top: 10%;
   display: flex;
   gap: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
