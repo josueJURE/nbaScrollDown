@@ -3,10 +3,11 @@
   border: solid black 2px;
   border-radius: 10px;
   position: fixed;
-  left: auto;
-  right: auto;
   top: 0;
-  text-align: center;
+  align-content: center;
+  text-align: center; /*center both vertically and horizontally*/
+  padding: 10px 0; /*center both vertically and horizontally*/
+  justify-content: center;
   left: 50%;
   transform: translateX(-50%);
   width: 600px;
