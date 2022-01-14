@@ -1,12 +1,16 @@
 .pageTitle {
-  animation: dropsdown 2s forwards;
+  /* animation: dropsdown 2s forwards; */
   border: solid black 2px;
   border-radius: 10px;
-  margin-left: auto;
-  margin-right: auto;
+  position: fixed;
+  left: auto;
+  right: auto;
+  top: 0;
   text-align: center;
-  transform: translateY(-200%);
-  width: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 50px;
 }
 
 @keyframes dropsdown {
@@ -58,7 +62,7 @@ ul {
 
 
 .container {
-  margin-top: 30px;
+  margin-top: 10%;
   display: flex;
   gap: 10px;
 }
